@@ -23,14 +23,20 @@ ore-pool-cli is a free program for mining ORE. By connecting to the mining pool,
 Running this single command starts mining immediately (Default to using machine threads for mining). You can use the same address on multiple machines, and all rewards will accumulate to the same address.
 
 ### Claim
+**No need to claim manually.** The mining pool now automatically distribute ORE to addresses with pending amounts exceeding a certain threshold, typically 0.05 ORE, every hour on the hour.
+
+### Status
 ```
-./ore-pool-cli claim --address YOUR_SOL_ADDRESSS
+./ore-pool-cli status --address YOUR_SOL_ADDRESS
+-------------------------------------------------------------------
+Status -- Claimable Rewards: 2.6377 ORE, Total Mined: 2.6377 ORE
+Invitation -- Invite Code: DYA17D, Invites: 2, Rewards: 0.0023 ORE
+-------------------------------------------------------------------
 ```
-**Note: You can only claim rewards ONCE every hour. The minimum amount for claiming is 0.1 ORE.**
-The pool will distribute the currently accumulated rewards to the specified address.
+You can immediately check mining profits using this command. Additionally, the mining pool will send this information to the mining client program every few minutes.
 
 ## Service Fees
-After extensive research and effort in developing the mining pool and optimizing mining strategies, as well as considering the operational costs of maintaining the pool (including machine, Gas, and RPC costs), a 7% fee will be deducted from mining rewards as a service fee.
+After extensive research and effort in developing the mining pool and optimizing mining strategies, as well as considering the operational costs of maintaining the pool (including machine, Gas, and RPC costs), a 7% base fee will be deducted from mining rewards as a service fee, and a dynamic fee that changes with the price of ORE.
 
 ## Invitation System
 - Use an invitation code to get a 1% reduction in service fees.
@@ -54,6 +60,7 @@ Due to the pool still being in the testing phase, the pool might be paused for u
 [Telegram Announcements](https://t.me/ore_pool_annoucement)
 
 ## Future Plans
+- **Build MacOS Client**
 - **GPU Mining Support**
 - **Open source the code after an audit**
 
