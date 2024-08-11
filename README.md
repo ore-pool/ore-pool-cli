@@ -1,6 +1,6 @@
 # ore-pool-cli
 
-ore-pool-cli is a free program for mining ORE. By connecting to the mining pool, users can earn ORE rewards with no risk. The mining pool covers all costs, and users only need to provide computing power.
+ore-pool is the first mining pool project since the launch of ORE v2. Users can connect to the pool using **ore-pool-cli** to contribute computing power and earn ORE rewards, with all costs covered by the pool.
 
 ## Features
 - Start mining with just your SOL address and computing power
@@ -11,8 +11,12 @@ ore-pool-cli is a free program for mining ORE. By connecting to the mining pool,
 ## Usage
 ### Download
 
-- for Linux, download ore-pool-cli (tested on Ubuntu 20.04 and 22.04)
-- for Windows, download ore-pool-cli.exe
+- **Linux:** Download the `ore-pool-cli` binary (compatible with Ubuntu 20.04 and 22.04).
+- **Windows:** Download the `ore-pool-cli.exe` executable.
+- **macOS:**
+  - For Apple Silicon (M1/M2), download `ore-pool-cli_aarch64-apple-darwin`.
+  - For Intel x86 architecture, download `ore-pool-cli_x86_64-apple-darwin`.
+
 
 ### Mine
 ```
@@ -60,7 +64,8 @@ Due to the pool still being in the testing phase, the pool might be paused for u
 [Telegram Announcements](https://t.me/ore_pool_annoucement)
 
 ## Future Plans
-- **Build MacOS Client**
+- [x] **Build MacOS Client**
+- **Optimize hash algorithm efficiency**
 - **GPU Mining Support**
 - **Open source the code after an audit**
 
