@@ -2,6 +2,8 @@
 
 ore-pool is the first mining pool project since the launch of ORE v2. Users can connect to the pool using **ore-pool-cli** to contribute computing power and earn ORE rewards, with all costs covered by the pool.
 
+Website: https://ore-pool.com/ (About mining pool's status and infos)
+
 ## Features
 - Start mining with just your SOL address and computing power
 - No private key, no gas fees, no RPC, no risk of loss
