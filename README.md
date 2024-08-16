@@ -29,7 +29,7 @@ Website: https://ore-pool.com/ (About mining pool's status and infos)
 Running this single command starts mining immediately (Default to using machine threads for mining). You can use the same address on multiple machines, and all rewards will accumulate to the same address.
 
 ### Claim
-**No need to claim manually.** The mining pool now automatically distribute ORE to addresses with pending amounts exceeding a certain threshold, typically 0.05 ORE, every hour on the hour.
+**No need to claim manually.** The mining pool now automatically distribute ORE to addresses with pending amounts exceeding a certain threshold, typically 0.01 ORE, every hour on the hour.
 
 ### Status
 ```
