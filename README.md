@@ -24,7 +24,6 @@ Website: https://ore-pool.com/ (About mining pool's status and infos)
 ```
 ./ore-pool-cli mine --address YOUR_SOL_ADDRESS
 ```
-**Note: Currently, mining is on devnet. Mainnet mining will automatically start on August 6th, 2024, at 00:00 UTC.**
 
 Running this single command starts mining immediately (Default to using machine threads for mining). You can use the same address on multiple machines, and all rewards will accumulate to the same address.
 
